@@ -15,4 +15,4 @@ Run the script in your terminal `python inflate.py`
  * download latest release of [geckodriver](https://github.com/mozilla/geckodriver/releases)
  * extract file with `tar -xvzf geckodriver*`
  * change it into an executable `chmod +x geckodriver`
- * add to path `export PATH=$PATH:/path-to-extracted-file/geckodriver`
+ * add to path `sudo mv geckodriver /usr/local/bin/`
